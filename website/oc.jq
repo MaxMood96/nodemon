@@ -40,6 +40,7 @@ def getAlt:
       # "525119": { description: "30 Best Casinos Not on Gamstop in 2024" },
       "532050": { description: "buy instagram followers on skweezer.net today"},
       "751387": { description: "Download multithreaded HEIC to JPG converter software for Windows 10/11" },
+      "839816": { description: "Slotsjudge polskie kasyna." },
     } | (.["\($_.MemberId)"] // $_) |
 	if .description then
 		.description
